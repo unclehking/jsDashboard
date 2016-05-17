@@ -1,0 +1,16 @@
+html,body{width: 100%;height: 100%;padding: 0px;margin: 0px;}
+.wrap{height: 100%;background: #f00;position: relative;}
+img{width: 300px;}
+.resize-container{position: absolute;border: solid transparent 1px;}
+.resize-container .resize-handle{position: absolute;display: none;}
+.resize-container .resize-handle-se{
+	bottom: -10px;
+	right: -10px;
+	width: 10px;
+	height: 10px;
+	background-color: #cccccc;
+}
+.resize-container.active{border: dashed #cccccc 1px;}
+.resize-container.active .resize-handle{display: block;}
+#tDiv{background-color: rgb(59, 170, 106);}
+.resize-container .cWrap{width: 100px;height: 100px;}
